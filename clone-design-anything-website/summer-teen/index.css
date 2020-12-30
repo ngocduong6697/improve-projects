@@ -1,0 +1,430 @@
+* {
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;;
+}
+
+.free-spirit-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1067px;
+    background-color: #ff90b3;
+}
+
+.free-spirit-day-content {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2.009;
+    letter-spacing: 0.23em;
+    color: #fff;
+    text-orientation: mixed ;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Kite One', sans-serif;
+    font-weight: 300;
+    font-size: 10.1;
+}
+
+.free-spirit-image > img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.free-spirit-content {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 20px solid #fff;
+    width: 80%;
+    height: 80%;
+}
+
+.free-spirit-content-free {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.free-spirit-content-expression {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 44.275px;
+    font-weight: 400;
+    line-height: 2.009;
+    letter-spacing: 0.23em;
+    color: #fff;
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+}
+.free-spirit-content-spirit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.free-spirit-content-free,
+.free-spirit-content-spirit {
+    font-size: 166.031px;
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: 0.1em;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.life-talk {
+    padding: 120px 0px;
+}
+
+
+.life-talk-content-main {
+    font-size: 166.031px;
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: 0.2em;
+    color: rgb(255, 144, 179);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.life-talk-content-img {
+    width: 100%;
+}
+
+.life-talk-content-para {
+    display: flex;
+    flex-direction: column;
+}
+
+.life-talk-content-para-main {
+    align-self: center;
+    padding: 40px 0px 20px 0px;
+    font-family: 'Kite One', sans-serif;
+    line-height: 2.009;
+    letter-spacing: 0.23em;
+    font-size: 19.3703px;
+    text-transform: uppercase;
+}
+
+.life-talk-content-para-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.life-talk-content-para-one,
+.life-talk-content-para-two {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 16.6031px;
+    line-height: 1.99;
+    letter-spacing: 0.11em;
+    text-transform: none;
+    padding: 10px;
+}
+
+/* ship friend */
+.ship-friend-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.ship-friend-content-one,
+.ship-friend-content-two {
+    padding: 0px 155px;
+}
+
+.ship-friend-content-one, 
+.ship-friend-content-two {
+    display: flex;
+}
+
+.ship-friend-content-two {
+    flex-direction: row-reverse;
+}
+
+.ship-friend-content-one-para,
+.ship-friend-content-two-para
+ {
+    padding: 150px 0px 60px 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+.ship-friend-content-one-image,
+.ship-friend-content-two-image {
+    width: 100%;
+    height: 643.218px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.ship-friend-content-big-friend,
+.ship-friend-content-big-ships {
+    position: absolute;
+    text-orientation: mixed ;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-size: 166.031px;
+    line-height: 0.9;
+    letter-spacing: 0.1em;
+    font-size: 166.031px;
+    text-transform: uppercase;
+    color: rgb(255, 144, 179);
+}
+
+.ship-friend-content-big-friend {
+    position: absolute;
+    left: -63px;
+    top: 13%;
+}
+
+.ship-friend-content-big-ships {
+    position: absolute;
+    left: -63px;
+    top: 4%;
+}
+
+
+
+.ship-friend-content-one-para h1,
+.ship-friend-content-two-para h1 {    
+    line-height: 2.009;
+    letter-spacing: 0.23em;
+    font-weight: 400;
+    font-size: 19.3703px;
+    text-transform: uppercase; 
+    font-family: 'Kite One', sans-serif;
+}
+
+.ship-friend-content-one-para h1 {
+    width: 50%;
+}
+.ship-friend-content-one-para p,
+.ship-friend-content-two-para p {
+    line-height: 1.99;
+    letter-spacing: 0.11em;
+    font-size: 16.6031px;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.ship-friend-content-one-para p {
+    width: 80%;
+}
+
+.ship-friend-content-two-para { 
+    padding: 60px;
+    width: 100%;
+}
+
+.ship-friend-content-one-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ship-friend-content-two-img
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72%;
+}
+
+/* Design for mobile  */
+@media screen and (max-width : 768px) {
+
+    /* FREE SPIRIT */
+    .container {
+        width: 100%;
+    }
+    .free-spirit-image {
+        width: 100%;
+        height: 709px;    
+    }
+    .free-spirit-image > img {
+        width: 100%;
+    }
+
+    .free-spirit-content-free, .free-spirit-content-spirit {
+        font-size: 50px;
+    }
+    .free-spirit-content-expression {
+        font-size: 20px;
+    }
+
+    .free-spirit-content-spirit {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .free-spirit-day-content {
+        left: 2%;
+        top: 30%;
+        transform: translate(-30%, -15%);
+        transform: rotate(180deg);
+    }
+    /* END FREE SPIRIT */
+    
+    /* LIFE TALK */
+    .life-talk {
+        padding: 40px 0px;
+    }
+
+    .life-talk-content-main {
+        font-size: 50px;
+        top: 15px;
+    }
+    .life-talk-content-para-main {
+        padding: 20px 0px 0px 0px;
+        font-size: 12.3703px;
+    }
+
+    .life-talk-content-para-one,
+    .life-talk-content-para-two {
+        font-size: 10.6031px;
+    }
+
+    /* friend */
+    .ship-friend-content-one, .ship-friend-content-two {
+        flex-direction: column;
+    }   
+
+    .ship-friend-content-one-para,
+    .ship-friend-content-two-para {
+        padding: 10px;
+        margin: 0px;
+        width: 100%;
+    }
+    .ship-friend-content-one-para h1,
+    .ship-friend-content-two-para h1
+     {
+        font-size: 12.3703px;
+    }
+    .ship-friend-content-one-para p,
+    .ship-friend-content-two-para p
+     {
+        font-size: 10.6031px;
+    }
+    .ship-friend-content-one-para h1,
+    .ship-friend-content-one-para p
+     {
+        width: 100%;
+    }
+    
+    .ship-friend-content-one-image,
+    .ship-friend-content-two-image {
+        height: 443.218px;
+    }
+    .ship-friend-content-one-image,
+    .ship-friend-content-two-image {
+        width: 100%;
+        position: relative;
+        margin: 20px 0px;
+    }
+
+    .ship-friend-content-one-img, 
+    .ship-friend-content-two-img {
+        width: 80%;
+        left: 10%;
+        height: 100%;
+    }
+    .ship-friend-content-big-friend,
+    .ship-friend-content-big-ships {
+        font-size: 106.031px;
+    }
+
+    .ship-friend-content-big-friend,
+    .ship-friend-content-big-ships
+     {
+        left: 0px;
+    }
+
+    .ship-friend-content-big-ships
+     {
+        top: 20%;
+    }
+
+    .ship-friend-content-one,
+    .ship-friend-content-two {
+        padding: 0px;
+    }
+}
+   
+/* Design for tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .life-talk, 
+    .container {
+        width: 100%;
+    }
+
+    .ship-friend,
+    .container {
+        width: 100%;
+    }
+
+    .ship-friend-content-one,
+    .ship-friend-content-two {
+        padding: 0px;
+    }
+
+    .ship-friend-content-one-img, .ship-friend-content-two-img {
+        width: 85%;
+    }
+
+    .ship-friend-content-one-image,
+    .ship-friend-content-two-image
+     {
+        left: 6%;
+    }
+
+    .ship-friend-content-big-ships {
+        top: 20%;
+    }
+
+    .ship-friend-content-one-para,
+    .ship-friend-content-two-para
+    {
+        padding: 150px 0px 60px 60px;
+    }
+
+    
+
+}
+
+/* Design for desktop */
+@media screen and (min-width: 1024px) {
+    .life-talk {
+        width: 100%;
+    }
+    .life-talk-content {
+        width: 100%;
+    }
+    
+}

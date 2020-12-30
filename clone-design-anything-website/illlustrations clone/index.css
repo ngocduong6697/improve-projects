@@ -1,0 +1,355 @@
+* {
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.header_title_content {
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #0d38ce;
+}
+
+.header_title_content_para {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffff;
+}
+
+.header_title_content_para_img,
+.header_title_content_para_strong,
+.header_title_content_para_span {
+    font-size: 22px;
+    text-align: center;
+}
+.header_title_content_para_img {
+    width: 20px;
+    height: 20px;
+}
+.source {
+    height: 770px;
+    width: 100%;
+    background-color: #f7c945;
+}
+
+.source_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10px;
+}
+
+.source_button > button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 24px 32px;
+    border-radius: 36px;
+    border: 1px solid rgba(35,36,37,.2);
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: #f7c945;
+    cursor: pointer;
+}
+.source_button > button:hover {
+    background-color: #f5be27;
+    border: 1px solid rgba(7, 7, 7, 0.2);
+}
+
+.source_content_layout {
+    display: flex;
+    justify-content: space-between;
+}
+.source_button_layout {
+    padding: 30px 32px 32px 0px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.source_content_notebook {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.source_content_notebook > img {
+    width: 450px;
+    position: absolute;
+    right: 70px;
+}
+
+.source_content_main > h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+.source_content_para p {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 300;
+    padding-right: 90px;
+}
+
+.source_content_para > p > strong {
+    font-size: 18px;
+}
+.source_content_download > button {
+    background: #000;
+    border: 1px solid #000;
+    padding: 18px 48px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all .2s ease;
+    border-radius: 8px;
+    z-index: 11;
+    position: relative;
+    color: #fff;
+}
+
+.source_content_download > ul {
+    list-style: none;
+    background-color: #fff;
+    transition: all .2s ease;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: none;
+}
+
+.source_content_download > ul > li {
+    height: 50px;
+    padding: 20px 75px;
+    border-bottom: 1px solid gainsboro;
+}
+.source_content_download > ul > li:nth-last-child(1) {
+    border-bottom: 0px solid #fff;
+    
+}
+
+.source_content_download > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* .source_button_layout .source_content_buy-coffee {
+    margin: auto;
+} */
+
+.source_content_buy-coffee > button {
+    font-weight: 300;
+    background: #f7c945;
+    border: 1px solid #000;
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: all .2s ease;
+    border-radius: 8px;
+    z-index: 11;
+    position: relative;
+    color: #fff;
+}
+.source_content_download > button > h4,
+.source_content_buy-coffee > button > h4
+ {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.source_content_buy-coffee > button,
+.source_content_buy-coffee > button > h4 {
+    color: #000;
+}
+.source_content_buy-coffee > button:hover {
+    background-color: #f5be27;   
+}
+
+
+/* covid and wfh */
+.covid-and-wfh-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.covid-and-wfh-main h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+    padding: 30px 0px;
+    font-style: normal;
+}
+
+.covid-and-wfh-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 40px 0px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.covid-and-wfh-content-box-wrap {
+    padding: 10px;
+    width: 20%;
+    height: 240px;
+    overflow: hidden;
+    transition: all .2s ease;
+}
+
+.covid-and-wfh-content-box-wrap:hover {
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.covid-and-wfh-content-box {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,.05);
+    overflow: hidden;
+    border-radius: 4px;
+    transition: all .2s ease;
+}
+
+.covid-and-wfh-content-box p {
+    position: absolute;
+    top: -24px;
+    color: #fff;
+}
+
+.covid-and-wfh-content-box > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.covid-and-wfh-content-box .svg,
+.covid-and-wfh-content-box .png {
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 0 8px;
+    border-radius: 6px;
+}
+
+.covid-and-wfh-content-box .svg {
+    left: 30px;
+    background: #0e63f9;
+    border: 1px solid #0e63f9;
+}
+
+.covid-and-wfh-content-box .png {
+    left: 110px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+/* 
+.covid-and-wfh-content-box .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, #ccc, #fff, #fff, #ccc);
+    opacity: 0;
+} */
+
+
+.covid-and-wfh-content-box .background-top,
+.covid-and-wfh-content-box .background-bottom {
+    height: 25%;
+    width: 100%;
+    left: 0;
+    background: linear-gradient(#666666, rgb(204 204 204 / 10%));
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2 ease;
+}
+.covid-and-wfh-content-box .background-bottom {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgb(204 204 204 / 10%), #666666);
+}
+
+/* 
+.covid-and-wfh-content-box:hover .covid-and-wfh-content-box-info {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.covid-and-wfh-content-box-wrap:hover > .covid-and-wfh-content-box .background-top, 
+.covid-and-wfh-content-box-wrap:hover > .covid-and-wfh-content-box .background-bottom {
+    visibility: visible;
+    opacity: 1;
+}
+
+.covid-and-wfh-content-box-wrap:hover > .covid-and-wfh-content-box p {
+    transition: all .2s ease;
+    top: 10px;
+    left: 10px;
+}
+
+.covid-and-wfh-content-box-wrap:hover > .covid-and-wfh-content-box .svg,
+.covid-and-wfh-content-box-wrap:hover > .covid-and-wfh-content-box .png
+ {
+    transition: all .2s ease;
+    bottom: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/* end covid and wfh */
+
+/* Design for mobile  */
+@media screen and (max-width : 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .header_title_content_para_span {
+        display: none;
+    }
+    
+    .header_title_content_para_strong {
+        display: block;
+        margin: 0px auto;
+    }
+    .source_header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .source_logo {
+        margin-bottom: 20px;
+    }
+}
+
+/* Design for tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Design for desktop */
+@media screen and (min-width: 1024px) {
+
+}
